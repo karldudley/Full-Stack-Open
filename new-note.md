@@ -26,4 +26,11 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
+
+sequenceDiagram
+    participant browser
+    participant server
+
+    Note right of browser: A user writes a message and clicks the 'Send' button
+    
 ```
